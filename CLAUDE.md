@@ -34,7 +34,7 @@
 ## 運用
 - APP_ID = tomoshibi-kuzushi。localStorageキーは `tomoshibi-kuzushi-<用途>-v1`(best・settings・perf)
 - `preserveDrawingBuffer` はPCでオン(smokeと📷のため)、スマホはオフ。スマホは毎フレーム `gl.finish()`、低い2段はバイリニア修正オフ
-- 区切りごとにcommit+push(GitHub連携=pushで自動デプロイ)。公開したら `hub/scripts/register-version.mjs` まで
+- 区切りごとにcommit+push。公開したら `hub/scripts/register-version.mjs` まで。公開: https://tomoshibi-kuzushi.vercel.app(公開repo acglay/tomoshibi-kuzushi・GitHub連携=pushで自動デプロイ・hub登録済み 2026-10-09)
 
 ## 未実装(M0の外)
 - 効果音・BGM/ステージ選択/コントローラー/盤面の鏡・プリズム(fun.md §5)
