@@ -1,5 +1,7 @@
 @AGENTS.md
 
+再開時はまず [HANDOFF.md](HANDOFF.md)(現状・残タスク・ハマりどころ)を読む。
+
 # tomoshibi-kuzushi — ともしび くずし
 
 暗闇のブロック崩し。光の計算は2D Radiance Cascades(RC、ともしびシリーズ共通)。**ボールが光源**で、ブロックは照らされるまで見えない。面白さの設計は `design/fun.md`、数値は全部 `lib/tuning.ts`(ロジックに直書きしない)。
